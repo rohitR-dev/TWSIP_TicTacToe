@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-// #include <conio.h>
+#include <conio.h>
 
 void PrintNumberBoard();
 void PrintTable();
@@ -49,7 +49,7 @@ int main(){
 			PrintTable();
 			if(turn) cout<<endl<<"Player 1 You Won!!";
 			else cout<<endl<<"Player 2 You Won!!";
-			// getch();
+			getch();
 			break;
 		}
 		if(i==8){
@@ -92,7 +92,7 @@ int addMark(){
 				}
 				else{
 					cout<<"Invalid Input";
-					// getch();
+					getch();
 					return 0;
 				}
 			}
